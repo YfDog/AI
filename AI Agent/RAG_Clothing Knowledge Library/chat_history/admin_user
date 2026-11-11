@@ -1,0 +1,477 @@
+[
+  {
+    "type": "human",
+    "data": {
+      "content": "张三的身高169cm，体重126斤，请给张三推荐衣服尺码。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "根据您的身高和体重，建议尺码为L。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你好",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你好！",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你能做什么",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我能回答各种问题，提供信息和帮助。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我的身高167cm，请你给我衣服推荐尺码",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "建议尺码为M。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "衣服要怎么养护呢？",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "衣服养护的关键在于正确洗护，避免过度清洗和暴晒。具体步骤包括：\n\n- 洗涤：使用中性洗涤剂，水温不超过30℃，采取翻面清洗和轻柔模式机洗，避免长时间浸泡和强力旋转，避免绒层脱落。\n\n- 养护：阴凉通风处阴干，避免暴晒；收纳时折叠平放，避免重压；清洗后立即晾干，防止发霉和产生异味。对于德绒材质，避免高温熨烫，防止破坏保暖纤维。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我对衣服的搭配很苦恼",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "您可以尝试参考颜色搭配禁忌和配饰颜色搭配技巧来指导自己选择颜色和搭配方式。在颜色搭配上，避免大面积高饱和色、黄皮和黑皮不宜使用荧光色等建议。在配饰搭配上，选择与服装颜色一致、形成反差或与服装颜色相近的中性色可以提升整体造型的协调感。通过这些方法，您可以尝试构建更加和谐、时尚的着装风格。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你好",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你好！",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你好",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你好！",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你擅长什么",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我擅长回答各种问题和提供信息，包括但不限于回答用户的问题、提供解决方案、提供帮助等。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "衣服怎么搭配",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "衣服的搭配要根据场合、季节和个人喜好来考虑。以下是一些基本的搭配技巧：\n\n1. **颜色搭配**：避免大面积高饱和色碰撞，如红+绿或蓝+橙。可以选择黑白灰等中性色过渡。对于肤色敏感的人群，避免使用冷调粉色和紫色，以防止肤色看起来泛黄。\n\n2. **颜色对比**：选择与衣服颜色形成强烈反差的配饰，如白色连衣裙搭配红色项链，可以提亮整体造型。\n\n3. **中性色搭配**：选择黑白灰、金属色等中性色的配饰，这样可以搭配任何颜色的衣服，使整体造型看起来简洁和谐。\n\n4. **颜色一致性**：同色系配饰，如黑色上衣搭配黑色包包，可以营造简约高级的视觉效果，适合通勤。\n\n5. **色彩层次**：在正式场合尽量保持色彩的简单协调，但在休闲场合适当增加颜色层次，但要注意主次分明。\n\n通过这些技巧，您可以更好地搭配衣服，展现出个人风格。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你好",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你好！",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你好",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你好！",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你能做什么",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我能回答各种问题和提供信息。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "衣服怎么搭配",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "衣服的搭配要根据场合、季节和个人喜好来考虑。以下是一些基本的搭配技巧：\n\n1. **颜色搭配**：避免大面积高饱和色碰撞，如红+绿或蓝+橙。可以选择黑白灰等中性色过渡。对于肤色敏感的人群，避免使用冷调粉色和紫色，以防止肤色看起来泛黄。\n\n2. **颜色对比**：选择与衣服颜色形成强烈反差的配饰，如白色连衣裙搭配红色项链，可以提亮整体造型。\n\n3. **中性色搭配**：选择黑白灰、金属色等中性色的配饰，这样可以搭配任何颜色的衣服，使整体造型看起来简洁和谐。\n\n4. **颜色一致性**：同色系配饰，如黑色上衣搭配黑色包包，可以营造简约高级的视觉效果，适合通勤。\n\n5. **色彩层次**：在正式场合尽量保持色彩的简单协调，但在休闲场合适当增加颜色层次，但要注意主次分明。\n\n通过这些技巧，您可以更好地搭配衣服，展现出个人风格。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你好",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你好！",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你能做什么",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我能回答各种问题和提供信息。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "身高176cm的人穿什么尺码的衣服",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "根据提供的身高体重区间，建议尺码为XL。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "衣服要怎么搭配才好看",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "衣服的搭配要根据场合、季节和个人喜好来考虑。以下是一些基本的搭配技巧：\n\n1. **颜色搭配**：避免大面积高饱和色碰撞，如红+绿或蓝+橙。可以选择黑白灰等中性色过渡。对于肤色敏感的人群，避免使用冷调粉色和紫色，以防止肤色看起来泛黄。\n\n2. **颜色对比**：选择与衣服颜色形成强烈反差的配饰，如白色连衣裙搭配红色项链，可以提亮整体造型。\n\n3. **中性色搭配**：选择黑白灰、金属色等中性色的配饰，这样可以搭配任何颜色的衣服，使整体造型看起来简洁和谐。\n\n4. **颜色一致性**：同色系配饰，如黑色上衣搭配黑色包包，可以营造简约高级的视觉效果，适合通勤。\n\n5. **色彩层次**：在正式场合尽量保持色彩的简单协调，但在休闲场合适当增加颜色层次，但要注意主次分明。\n\n通过这些技巧，您可以更好地搭配衣服，展现出个人风格。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "衣服要怎么养护",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "衣服养护的关键在于正确洗护，避免过度清洗和暴晒。具体步骤包括：\n\n- 洗涤：使用中性洗涤剂，水温不超过30℃，采取翻面清洗和轻柔模式机洗，避免长时间浸泡和强力旋转，避免绒层脱落。\n\n- 养护：阴凉通风处阴干，避免暴晒；收纳时折叠平放，避免重压；清洗后立即晾干，防止发霉和产生异味。对于德绒材质，避免高温熨烫，防止破坏保暖纤维。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  }
+]

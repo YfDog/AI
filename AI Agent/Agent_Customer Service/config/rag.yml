@@ -1,0 +1,3 @@
+ollama_chat_model: qwen3:1.7b   #qwen3:1.7b   qwen2.5:1.5b-instruct
+ollama_embedding_model: qwen3-embedding:0.6b  #本地小模型任务一多处理起来就不太好
+

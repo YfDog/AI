@@ -1,0 +1,118 @@
+2026-11-10 20:38:48,414 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有1条消息
+2026-11-10 20:41:43,796 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有1条消息
+2026-11-10 20:41:43,797 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]HumanMessage:在我当前的城市的天气下扫地机器人如何保养
+2026-11-10 20:43:13,666 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有1条消息
+2026-11-10 20:43:13,666 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]HumanMessage:在我当前的城市的天气下扫地机器人如何保养
+2026-11-10 20:45:55,850 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有1条消息
+2026-11-10 20:45:55,850 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]HumanMessage:在我当前的城市的天气下扫地机器人如何保养
+2026-11-10 20:46:14,799 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_user_city
+2026-11-10 20:46:14,799 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{}
+2026-11-10 20:46:14,800 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_user_city调用成功
+2026-11-10 20:46:14,800 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_weather
+2026-11-10 20:46:14,800 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'city': '当前城市名称'}
+2026-11-10 20:46:14,801 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_weather调用成功
+2026-11-10 20:46:14,802 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有4条消息
+2026-11-10 20:46:14,802 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:当前城市名称的天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-11-10 20:46:24,994 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：rag
+2026-11-10 20:46:24,994 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'query': '合肥天气下扫地机器人保养建议'}
+2026-11-10 20:46:34,312 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具rag调用成功
+2026-11-10 20:46:34,312 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有6条消息
+2026-11-10 20:46:34,312 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:参考资料中未提及合肥天气具体保养建议，仅提供通用基础维护措施（如每日清洁机身、清理防撞条毛发线头等）。如需针对特定天气条件的保养，需结合更多具体资料补充。
+2026-11-10 20:46:48,516 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：rag
+2026-11-10 20:46:48,516 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'query': '合肥天气下扫地机器人保养建议'}
+2026-11-10 20:46:55,939 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具rag调用成功
+2026-11-10 20:46:55,939 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有8条消息
+2026-11-10 20:46:55,939 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:参考资料中未提及合肥天气的具体保养建议，仅提供通用基础维护措施（如每日清洁机身、清理防撞条缝隙的毛发线头）。如需针对特定天气条件的保养，需结合具体环境调整。
+2026-11-10 22:06:16,227 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有1条消息
+2026-11-10 22:06:16,228 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]HumanMessage:在我当前的城市的天气下扫地机器人如何保养
+2026-11-10 22:06:38,568 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_user_city
+2026-11-10 22:06:38,569 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{}
+2026-11-10 22:06:38,570 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_user_city调用成功
+2026-11-10 22:06:38,570 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_weather
+2026-11-10 22:06:38,571 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'city': '北京'}
+2026-11-10 22:06:38,572 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_weather调用成功
+2026-11-10 22:06:38,573 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：rag
+2026-11-10 22:06:38,574 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'query': '扫地机器人保养注意事项'}
+2026-11-10 22:06:48,634 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具rag调用成功
+2026-11-10 22:06:48,637 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有5条消息
+2026-11-10 22:06:48,637 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:扫地机器人保养注意事项包括：每日使用后用干软布擦拭机身外壳去除灰尘水渍，清理防撞条缝隙的毛发线头防止卡顿。
+2026-11-10 22:17:05,040 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有1条消息
+2026-11-10 22:17:05,040 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]HumanMessage:在我当前的城市的天气下扫地机器人如何保养
+2026-11-10 22:17:22,988 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_user_city
+2026-11-10 22:17:22,988 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'city': '当前用户所在城市'}
+2026-11-10 22:17:22,988 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_user_city调用成功
+2026-11-10 22:17:22,992 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有3条消息
+2026-11-10 22:17:22,992 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:杭州
+2026-11-10 22:17:30,342 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_weather
+2026-11-10 22:17:30,342 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'city': '杭州'}
+2026-11-10 22:17:30,343 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_weather调用成功
+2026-11-10 22:17:30,345 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有5条消息
+2026-11-10 22:17:30,345 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:杭州的天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-11-10 22:28:22,474 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有1条消息
+2026-11-10 22:28:22,474 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]HumanMessage:在我当前的城市天气下，扫地机器人如何保养
+2026-11-10 22:28:46,726 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_user_city
+2026-11-10 22:28:46,727 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{}
+2026-11-10 22:28:46,728 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_user_city调用成功
+2026-11-10 22:28:46,728 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_weather
+2026-11-10 22:28:46,730 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'city': '当前城市名称'}
+2026-11-10 22:28:46,730 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：rag
+2026-11-10 22:28:46,731 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_weather调用成功
+2026-11-10 22:28:46,731 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'query': '扫地机器人保养建议'}
+2026-11-10 22:28:54,918 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具rag调用成功
+2026-11-10 22:28:54,919 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有5条消息
+2026-11-10 22:28:54,920 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:扫地机器人保养建议包括：每日使用后用干软布擦拭机身外壳，清除灰尘和水渍；清扫完成后清理防撞条缝隙的毛发、线头，防止卡顿影响运行。
+2026-11-10 22:29:28,381 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有1条消息
+2026-11-10 22:29:28,381 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]HumanMessage:在我当前的城市天气下，扫地机器人如何保养
+2026-11-10 22:29:38,718 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_user_city
+2026-11-10 22:29:38,718 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{}
+2026-11-10 22:29:38,719 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_user_city调用成功
+2026-11-10 22:29:38,721 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有3条消息
+2026-11-10 22:29:38,721 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:上海
+2026-11-10 22:29:47,708 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_weather
+2026-11-10 22:29:47,709 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'city': '上海'}
+2026-11-10 22:29:47,709 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_weather调用成功
+2026-11-10 22:29:47,711 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有5条消息
+2026-11-10 22:29:47,711 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:上海的天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-11-10 22:37:59,842 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有1条消息
+2026-11-10 22:37:59,843 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]HumanMessage:在我当前的城市的天气下，扫地机器人怎么保养
+2026-11-10 22:38:17,012 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_user_city
+2026-11-10 22:38:17,012 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{}
+2026-11-10 22:38:17,013 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_user_city调用成功
+2026-11-10 22:38:17,014 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_weather
+2026-11-10 22:38:17,015 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'city': '北京'}
+2026-11-10 22:38:17,015 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：rag
+2026-11-10 22:38:17,016 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_weather调用成功
+2026-11-10 22:38:17,016 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'query': '扫地机器人保养 雨天 湿气'}
+2026-11-10 22:38:30,305 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具rag调用成功
+2026-11-10 22:38:30,334 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有5条消息
+2026-11-10 22:38:30,334 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:根据参考资料中的通用基础维护内容，雨天湿气环境下应重点清洁机器人机身，避免水渍附着硬化。建议每日使用干软布擦拭机身，去除灰尘和水渍，并及时清理防撞条缝隙的毛发、线头，防止卡顿。参考资料未明确提及雨天湿气的特殊处理措施，故仅依据现有信息概括。
+2026-11-10 22:39:05,437 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有1条消息
+2026-11-10 22:39:05,437 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]HumanMessage:在我当前的城市的天气下，扫地机器人怎么保养
+2026-11-10 22:39:13,957 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_user_city
+2026-11-10 22:39:13,957 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{}
+2026-11-10 22:39:13,958 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_user_city调用成功
+2026-11-10 22:39:13,958 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_weather
+2026-11-10 22:39:13,959 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'city': '当前城市名称'}
+2026-11-10 22:39:13,961 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_weather调用成功
+2026-11-10 22:39:13,973 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有4条消息
+2026-11-10 22:39:13,974 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:当前城市名称的天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-11-10 22:41:13,028 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有1条消息
+2026-11-10 22:41:13,036 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]HumanMessage:在我当前的城市的天气下，扫地机器人怎么保养
+2026-11-10 22:41:21,067 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_user_city
+2026-11-10 22:41:21,068 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{}
+2026-11-10 22:41:21,069 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_user_city调用成功
+2026-11-10 22:41:21,070 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：get_weather
+2026-11-10 22:41:21,070 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'city': '当前城市名称'}
+2026-11-10 22:41:21,071 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：rag
+2026-11-10 22:41:21,071 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具get_weather调用成功
+2026-11-10 22:41:21,072 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{'query': '扫地机器人 保养 方法 湿度 雨水'}
+2026-11-10 22:41:32,743 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具rag调用成功
+2026-11-10 22:41:32,764 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有5条消息
+2026-11-10 22:41:32,764 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:根据参考资料1中的信息，扫地机器人保养中未提及湿度或雨水的具体维护方法。资料仅涉及日常清洁（如擦拭机身、清理防撞条缝隙）等通用维护内容，未覆盖湿度控制或雨水影响的细节。
+2026-11-10 22:42:04,820 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有1条消息
+2026-11-10 22:42:04,820 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]HumanMessage:请给我用户的使用报告
+2026-11-10 22:42:12,224 - logger_agent - INFO - middleware.py:28 - [tool monitor]执行工具：fill_context_for_report
+2026-11-10 22:42:12,224 - logger_agent - INFO - middleware.py:29 - [tool monitor]传入参数：{}
+2026-11-10 22:42:12,225 - logger_agent - INFO - middleware.py:33 - [tool monitor]工具fill_context_for_report调用成功
+2026-11-10 22:42:12,233 - logger_agent - INFO - middleware.py:51 - [log_before_model]现在模型还未调用，模型即将调用，带有3条消息
+2026-11-10 22:42:12,233 - logger_agent - DEBUG - middleware.py:52 - [log_before_model]ToolMessage:fill_context_for_report已调用

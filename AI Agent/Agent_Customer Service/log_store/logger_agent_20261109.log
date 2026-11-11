@@ -1,0 +1,1 @@
+2026-11-09 22:40:36,547 - logger_agent - ERROR - agent_tools.py:100 - [fetch_external_data工具]获取用户1021在2025-01的使用记录失败，详细信息：'1021'
